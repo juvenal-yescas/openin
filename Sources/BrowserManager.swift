@@ -55,6 +55,7 @@ class BrowserManager {
         "com.google.Chrome.beta",
         "com.brave.Browser.nightly",
         "com.apple.SafariTechnologyPreview",
+        "net.imput.helium",
     ]
 
     private let chromiumDirs: [String: String] = [
@@ -65,6 +66,7 @@ class BrowserManager {
         "com.microsoft.edgemac":     "Microsoft Edge",
         "com.vivaldi.Vivaldi":       "Vivaldi",
         "com.operasoftware.Opera":   "com.operasoftware.Opera",
+        "net.imput.helium":          "net.imput.helium",
     ]
 
     // MARK: Build flat entry list
